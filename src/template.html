@@ -1,277 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/icon" href="./assets/favicon.ico" />
-    <title>Jeremy Inabnit | Full Stack Developer</title>
-    <meta name="keywords" content="javascript web developer" />
-    <meta name="description" content="Jeremy Inabnit | Full Stack Developer" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/icon" href="./assets/favicon.ico" />
+  <title>Jeremy Inabnit | Full Stack Developer</title>
+  <meta name="keywords" content="javascript web developer" />
+  <meta name="description" content="Jeremy Inabnit | Full Stack Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Jeremy Inabnit</span>
-          <br />
-          I'm a Full Stack JavaScript Developer
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Check out my work</a>
-        </p>
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Jeremy Inabnit</span>
+        <br />
+        I'm a Full Stack Developer
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Check out my work</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** Tech Tools Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        Tech tools
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-12 col-sm-12">
+          <div class="about-wrapper__tools">
+            <p class="about-wrapper__tools-text">
+              HTML | CSS | Javascript | React | Node | Express | MongoDB | Firebase 
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** Tech Tools Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          Tech tools
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-12 col-sm-12">
-            <div class="about-wrapper__tools">
-              <p class="about-wrapper__tools-text">
-                HTML | CSS | Javascript | React | Redux | Node | Express | MongoDB | Firebase | Gatsby | Apollo GraphQL
-              </p>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">CRWN CLOTHING</h3>
+              <div>
+                <p class="mb-4">
+                  An e-commerce application similar to Shopify using React, Redux, React Suspense, React
+                  Router, Firebase, user authentication, Stripe payment integration and more.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://crwn-clothing1981.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/jrinabnit/crwn-clothing">
+                Source Code
+              </a>
             </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://crwn-clothing1981.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/crwn.gif" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">COVID-19 CASE COUNTER</h3>
+              <div>
+                <p class="mb-4">
+                  A web app made with React and REST APIs to fetch and update global case data in easy-to-read chart and
+                  bar graphs displays.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="http://covid-19-case-counter.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/jrinabnit/covid-19-tracker">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="http://covid-19-case-counter.herokuapp.com" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/covid -19.gif" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SCUBA REPUBLIC BLOG</h3>
+              <div>
+                <p class="mb-4">
+                  A static blog site made with Gatsby that uses GraphQL to fetch posts and images from Contentful, a
+                  content management system.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://scuba-republic-blog.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/jrinabnit/scuba-republic-blog">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://scuba-republic-blog.netlify.app/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/srblogvid.gif" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/Jeremy-headshot-enh.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I'm a full stack web developer with a strong background in sales and operations management. I get excited
+              about building projects, solving problems, and learning new skills and technologies.
+            </p>
+            <br />
+            <p class="about-wrapper__info-text">
+              I'm currently in Bali, Indonesia and looking for a developer position. I'm seeking remote
+              work or relocation.
+            </p>
+            <!-- <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+                View Resume
+              </a>
+            </span> -->
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
-    
+    </div>
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">CRWN CLOTHING</h3>
-                <div>
-                  <p class="mb-4">
-                    An e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, Firebase, user authentication, Stripe payment integration + more. It is mobile-responsive and progressive.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://crwn-clothing1981.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/jrinabnit/crwn-clothing">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://crwn-clothing1981.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/crwn.gif" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">COVID-19 CASE COUNTER</h3>
-                <div>
-                  <p class="mb-4">
-                    A web app made with React and REST APIs to fetch and update global case data in easy-to-read chart and bar graphs displays.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://covid-19-case-counter.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/jrinabnit/covid-19-tracker">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="http://covid-19-case-counter.herokuapp.com" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/covid -19.gif" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">SCUBA REPUBLIC BLOG</h3>
-                <div>
-                  <p class="mb-4">
-                    A static blog site made with Gatsby that uses GraphQL to fetch posts and images from Contentful, a content management system.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://scuba-republic-blog.netlify.app/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/jrinabnit/scuba-republic-blog">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://scuba-republic-blog.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/srblogvid.gif" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
-        </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/Jeremy-headshot-zeke.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I'm a full stack web developer with a strong background in sales and operations management. I'm currently specializing in mobile-responsive web applications created with Javascript, React, Redux, Node, Express, and NoSQL databases. I also have experience with Gatsby, Apollo GraphQL, content management systems, APIs, authentication, testing, and deployment.
-              </p>
-              <p class="about-wrapper__info-text">
-                I'm currently in Bali, Indonesia and looking for an entry-level developer position. I'm seeking remote work or relocation.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-           
-
-          <p class="contact-wrapper__text">
-            Let's work together  
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--contact"
-            href="mailto:jrinabnit@email.com"
-            >Send me a message</a
-          >
-          <!-- <div class="container">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Company</label>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
-        </div>
-      </div> -->
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <!-- <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a> -->
-          <a href="https://LinkedIn.com/in/jeremy-inabnit-b4077b1a7" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/jrinabnit" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          Let's work together
         </p>
+
+        <form class="form" name="contact" method="POST" data-netlify="true">
+          <p>
+            <label><input type="text" name="name" placeholder="Your name" /></label>
+          </p>
+          <p>
+            <label><input type="text" name="company" placeholder="Your company" /></label>
+          </p>
+          <p>
+            <label><input type="email" name="email" placeholder="Your email address"/></label>
+          </p>
+
+          <p>
+            <label><textarea name="message" placeholder="Your message"></textarea></label>
+          </p>
+          <p>
+            <button class="cta-btn cta-btn--contact" type="submit">Send</button>
+          </p>
+        </form>
+  </section>
+
+
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/InabnitJeremy" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a target="_blank"
+        href="mailto:example@email.com">
+            <!-- <i class="fa fa-codepen fa-inverse"></i> -->
+            <i class="fa fa-envelope fa-inverse"></i>
+          </a>
+        <a href="https://LinkedIn.com/in/jeremy-inabnit-b4077b1a7" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/jrinabnit" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+
+      <hr />
+
+      <p class="footer__text">
+        © 2020 - Jeremy Inabnit
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
